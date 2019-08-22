@@ -1,1 +1,6 @@
-kuluoz or asprox is a botnet
+Malware Family:Botnet
+Other Names: Asprox
+
+References:
+
+Strings:
