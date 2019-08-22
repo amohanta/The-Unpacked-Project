@@ -10,4 +10,4 @@ What you can get from the unpacked files?
 6)Candidates for signatures
 
 Note: The samples might not be perfectly unpacked so all the samples might not execute completely
-Disclaimner: The intent of creating this repositary is not to distribute malware but to aid researchers to fight malware
+Disclaimer: The intent of creating this repository is not to distribute malware but to aid researchers to fight malware
