@@ -7,3 +7,9 @@ Ransom Note Files:
 DECRYPT_INSTRUCTION.TXT
 DECRYPT_INSTRUCTION.HTML
 DECRYPT_INSTRUCTION.URL
+
+signature suggestion: you can use the following string in writing signature
+-----------------------------------
+DECRYPT_INSTRUCTION.TXT
+DECRYPT_INSTRUCTION.HTML
+DECRYPT_INSTRUCTION.URL
