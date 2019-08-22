@@ -1,7 +1,7 @@
-The Unpacked Project is meant to aid malware Researchers.The repository  consists of unpacked samples. 
-A lot of time researchers have to spend time in unpacking a sample and reach the actual payload. This project provides unpacked samples suggests IOCs,important strings used for creating signatures.
+The Unpacked Project is meant to help malware researchers by provinding unpacked malware sample or  memory dumps conatining unpacked data.
+Researchers have to spend time in unpacking a malware sample. This project provides unpacked samples so that researchers can directly look into the final payload and investgate the code and find importnat IOC. The project also suggests IOCs,important strings used for creating signatures. 
 
-What you can get from the unpacked files:
+What you can get from the unpacked files?
 1)important strings like malware name
 2)sequence of API
 3)Persistence mechanisms
