@@ -1,6 +1,71 @@
 Malware Family:Botnet
 Other Names: Asprox
+Description :
+Distributed mostly as email attachments
 
-References:
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Important Strings and category:
 
-Strings:
+For base!!!!!
+For base!!!!!
+For base!!!!!
+For base!!!!!
+Software\•
+For base!!!!!
+For base!!!!!
+For base!!!!!
+
+persistence
+----------------------------
+Software\Microsoft\Windows\CurrentVersion\Run
+
+index.php
+
+C&C communication
+-------------------------------
+<knock><id>%s</id><group>%s</group><src>%d</src><transport>%d</transport><time>%d</time><version>%d</version><status>%d</status><debug>%s</debug></knock>
+
+detection of malware analysis tools and virtual machines
+------------------------------------------------
+wireshark.exe
+Tfrmrpcap
+iptools.exe
+
+PROCMON_WINDOW_CLASS
+PROCEXPL
+WdcWindow
+ProcessHacker
+Dumper
+Dumper64
+APISpy32Class
+VMwareDragDetWndClass
+VMwareSwitchUserControlClass
+vmtoolsd.exe
+prl_cc.exe
+prl_tools.exe
+SharedIntApp.exe
+VBoxTray.exe
+VBoxService.exe
+vmusrvc.exe
+vmsrvc.exe
+
+key used in communication
+---------------------------
+-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDh1cXNl5TSGcC5OrnDBc+fdN/0
+PblnZEAOlryK65eKdaNAIi0okxHTfCHKZQWEz8LOzQRclzg+SilO+jbesgZg/Y7U
+c8edpo93cM0eyVE7Pi5n73I/lLyvD/gDby80FQmj1sbayyHR2DG8heeJJ2TRTfzD
+r6V/45jRqvvUfgl+swIDAQAB
+-----END PUBLIC KEY-----
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Strings that can be used in rules
+---------------
+1)index.php
+2)<knock><id>%s</id><group>%s</group><src>%d</src><transport>%d</transport><time>%d</time><version>%d</version><status>%d</status><debug>%s</debug></knock>
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+WriteUps
+https://www.fireeye.com/blog/threat-research/2014/06/a-not-so-civic-duty-asprox-botnet-campaign-spreads-court-dates-and-malware.html
