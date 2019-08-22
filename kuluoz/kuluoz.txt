@@ -60,8 +60,8 @@ r6V/45jRqvvUfgl+swIDAQAB
 
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-Strings that can be used in rules
----------------
+signature suggestion: you can use the following string in writing signature
+-------------------------------------------------------------
 1)index.php
 2)<knock><id>%s</id><group>%s</group><src>%d</src><transport>%d</transport><time>%d</time><version>%d</version><status>%d</status><debug>%s</debug></knock>
 
