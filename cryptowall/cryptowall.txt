@@ -1,0 +1,9 @@
+Family: Ransomware
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Imporatnt strings
+
+Ransom Note Files:
+DECRYPT_INSTRUCTION.TXT
+DECRYPT_INSTRUCTION.HTML
+DECRYPT_INSTRUCTION.URL
