@@ -1,0 +1,47 @@
+Malware Family- Ransomware
+
+@@@@@@@@@@@@@@@@@@important strings start @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+project code
+-----------------------
+Eris/Utils.(*WindowsProcess).Pid
+Eris/Utils.(*WindowsProcess).PPid
+Eris/Utils.(*WindowsProcess).Executable
+Eris/Utils.newWindowsProcess
+Eris/Utils.processes
+Eris/Utils.RandStringBytes
+
+-----END PUBLIC KEY-----
+***                                                 ***
+*** READ THIS FILE CAREFULLY TO RECOVERY YOUR FILES ***
+***                                                 ***
+ALERT! 
+ALL OF YOUR FILES HAVE BEEN ENCRYPTED BY "ERIS RANSOMWARE" v{version}!
+Welcome to Eris System Security Encryption Program!
+Keeping strong security for our clients in mind, we have implemented Strong Encryption Algorithm for securing the system.
+To personally update regarding the available decryption software and payment methods. Follow the steps below to access the payment page.
+Follow the steps below to access payment page.
+1. Download and install Tor browser from here:
+   URL - https://www.torproject.org/download/
+2. Visit page below using Tor browser:
+   URL - http://{host}/{id}
+3. Enter your "ERIS IDENTIFICATION". (You can find it in below)
+4. Follow the next steps(instructions) displayed on the page for successful decryption.
+Note: 
+We only accept payments via Bitcoin (BTC)!
+ERIS IDENTIFICATION:
+{identification}
+* IF YOU NOT FOLLOW INSTRUCTIONS IN PAYMENT PAGE MORE THAN 1 MONTH,
+  YOUR CANNOT ACCESS TO PAYMENT PAGE OR YOUR FILES ANYMORE!
+* IN CASE OF FOLLOWING OUR INSTRUCTION,
+  FAST AND EASILY EVERYTHING IS BACK TO NORMAL LIKE THAT NEVER HAPPENED!
+  BUT IF YOU USE OTHER METHODS (THAT NEVER EVER HELPS) YOU JUST DESTROY EVERYTHING FOR GOODNESS!
+---------------------------------
+* DO NOT MODIFY ENCRYPTED FILE(S)
+* DO NOT MOVE ENCRYPTED FILES
+* DO NOT USE RECOVERY SOFTWARE(S)
+---------------------------------
+
+
+
+
+@@@@@@@@@@@@@@@@@@important strings end@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
