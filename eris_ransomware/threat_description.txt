@@ -1,5 +1,7 @@
 Malware Family- Ransomware
 
+Referneces: https://www.bleepingcomputer.com/news/security/rig-exploit-kit-pushing-eris-ransomware-in-drive-by-downloads/
+
 @@@@@@@@@@@@@@@@@@important strings start @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 project code
 -----------------------
@@ -45,3 +47,10 @@ ERIS IDENTIFICATION:
 
 
 @@@@@@@@@@@@@@@@@@important strings end@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+signature suggestion: you can use these starings to create yara rules
+-----------------------
+ERIS IDENTIFICATION
+Eris/Utils.processes
+Eris/Utils.RandStringBytes
+http://{host}/{id}
