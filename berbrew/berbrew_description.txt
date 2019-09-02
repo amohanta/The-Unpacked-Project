@@ -1,0 +1,1 @@
+Lot of strings visible in memory
